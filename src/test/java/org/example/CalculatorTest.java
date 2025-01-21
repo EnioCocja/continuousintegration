@@ -43,4 +43,9 @@ class CalculatorTest {
         assertEquals(2, calculator.squareRoot(4));
     }
 
+    @Test
+    void power(){
+        assertEquals(16, calculator.squareRoot(4));
+    }
+
 }
