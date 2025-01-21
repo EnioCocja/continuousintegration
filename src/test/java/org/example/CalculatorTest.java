@@ -37,4 +37,10 @@ class CalculatorTest {
     void divide() {
             assertEquals(2, calculator.divide(10, 5));
     }
+
+    @Test
+    void squareRoot(){
+        assertEquals(2, calculator.squareRoot(4));
+    }
+
 }
